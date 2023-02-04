@@ -1,0 +1,11 @@
+---
+# Load the plugins for our code-quality settings
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-thread_safety
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
